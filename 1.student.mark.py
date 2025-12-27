@@ -85,9 +85,6 @@ def show_student_marks_by_course():
 def main():
     while True:
         print("""
-===========================
-  Student Management
-===========================
 1. Input students
 2. Input courses
 3. Input marks for a course

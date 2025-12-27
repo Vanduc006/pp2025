@@ -1,6 +1,12 @@
 from domains.student import Student
 from domains.course import Course
 
+
+# def save(manager,path,data):
+    
+#     with open(path,"a") as file:
+#         file.write(data)
+       
 def inputStudents(manager):
     n = int(input("Number of new students: "))
     for _ in range(n):
